@@ -47,10 +47,7 @@ export const FeaturedProyect = () => {
                 <br />
                 <br />
                 <h3 className="text-2xl mt-2 font-semibold">
-                  Te brinda la herramienta de convercion con las ultimas
-                  actualizaciones a tiempo real del valor de cada dolar ,para
-                  que no pierdas un solo centabo con una ayudita extra para que
-                  sumes tus calculos al monto que ya tienes.
+                  Te ofrece una herramienta de conversión con las últimas actualizaciones en tiempo real del valor de cada dólar, para que no pierdas ni un solo centavo. Además, incluye una función extra para sumar tus cálculos al monto que ya tienes.
                 </h3>
               </div>
               {/* Espacio para imagen o preview */}
