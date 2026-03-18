@@ -12,13 +12,13 @@ export const NavBar = () => {
 
       {/* Enlaces Centrales */}
       <div className="flex items-center space-x-8 text-sm font-medium uppercase tracking-widest text-gray-400">
-        <Link href="/" className="text-white border-b-2 border-white pb-1">
+        <Link href="/" className="hover:border-b-2 hover:text-white transition-colors">
           Home
         </Link>
-        <Link href="/projects" className="hover:text-white transition-colors">
+        <Link href="/projects" className="hover:border-b-2 hover:text-white transition-colors">
           Proyectos
         </Link>
-        <Link href="/about" className="hover:text-white transition-colors">
+        <Link href="/about" className="hover:border-b-2 hover:text-white transition-colors">
           Sobre mi
         </Link>
       </div>
