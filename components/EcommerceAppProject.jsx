@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image";
-
+import Link from 'next/link';
 export const EcommerceAppProject = () => {
   return (
     <div>
@@ -25,10 +25,10 @@ export const EcommerceAppProject = () => {
 
       {/* Título Principal */}
       <div>
-        <h2 className="text-white text-7xl md:text-[140px] leading-[0.8] font-black uppercase tracking-tighter transition-colors duration-500 ease-in-out cursor-pointer pointer-events-auto hover:text-blue-600 active:scale-95">
+        <Link href="https://my-ecom-base.vercel.app/" className="text-white text-7xl md:text-[140px] leading-[0.8] font-black uppercase tracking-tighter transition-colors duration-500 ease-in-out cursor-pointer pointer-events-auto hover:text-blue-600 active:scale-95">
           E-Commerce <br />
           APP
-        </h2>
+        </Link>
       </div>
 
       {/* Info Inferior Derecha */}

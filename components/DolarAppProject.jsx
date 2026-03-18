@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
+import Link from 'next/link';
 export const DolarAppProject = () => {
   return (
     <div>
@@ -25,7 +25,7 @@ export const DolarAppProject = () => {
 
           {/* Título Principal con HOVER AZUL */}
           <div>
-            <h2
+            <Link href="https://dolar-app-xi.vercel.app/"
               className="text-white text-7xl md:text-[140px] leading-[0.8] font-black uppercase tracking-tighter 
                          transition-colors duration-500 ease-in-out
                          cursor-pointer pointer-events-auto
@@ -33,7 +33,7 @@ export const DolarAppProject = () => {
             >
               DOLAR <br />
               APP
-            </h2>
+            </Link>
           </div>
 
           {/* Info Inferior Derecha */}
