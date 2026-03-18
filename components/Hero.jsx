@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from 'next/link';
 export const Hero = () => {
   return (
     <div>
@@ -27,9 +27,9 @@ export const Hero = () => {
               Construyo soluciones digitales donde la funcionalidad y el diseño convergen. Mi enfoque se centra en desarrollar ecosistemas web escalables que optimizan el flujo de trabajo, eliminando fricciones técnicas para que puedas enfocarte en lo que importa: tu negocio.
             </p>
 
-            <button className="group relative inline-flex items-center justify-center px-10 py-4 font-bold text-black transition-all duration-200 bg-gradient-to-r from-blue-400 to-blue-600 rounded-md hover:opacity-90 uppercase text-xs tracking-widest">
+            <Link href="/projects" className="group relative inline-flex items-center justify-center px-10 py-4 font-bold text-black transition-all duration-200 bg-gradient-to-r from-blue-400 to-blue-600 rounded-md hover:opacity-90 uppercase text-xs tracking-widest">
               Ver Proyectos
-            </button>
+            </Link>
           </div>
         </div>
 

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link';
 
 export const FeaturedProyect = () => {
   return (
@@ -12,12 +13,12 @@ export const FeaturedProyect = () => {
             </span>
             <h2 className="text-4xl font-medium">Proyectos Destacados</h2>
           </div>
-          <a
-            href="#"
+          <Link
+            href="/projects"
             className="text-sm uppercase tracking-widest text-gray-400 hover:text-white transition-colors"
           >
             View All Projects →
-          </a>
+          </Link>
         </div>
 
         {/* Grid de Proyectos */}

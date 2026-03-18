@@ -3,7 +3,7 @@ import React from 'react'
 export const Footer = () => {
   return (
     <div>
-        <footer id="contacto" className="bg-black text-white px-8 py-12 border-t border-white/5">
+        <footer id="contacto" className="bg-black text-white px-8 py-12 border-t border-white/5 hover:border-blue-500">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0">
         
         {/* Logo / Nombre */}
