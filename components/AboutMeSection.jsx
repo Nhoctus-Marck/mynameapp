@@ -16,7 +16,7 @@ export const AboutMeSection = () => {
                 Apasionado por la tecnología desde hace más de una década. Mi
                 viaje empezó en las aulas de ingeniería y, desde entonces, no he
                 parado de construir.
-                <span className="text-white"> Con 12 años en el mundo IT</span>,
+                <span className="text-white"> Con mis años en el mundo IT</span>,
                 he evolucionado desde los fundamentos del software hasta dominar
                 el ecosistema Full Stack, complementando mi formación con
                 bootcamps intensivos y aprendizaje continuo.

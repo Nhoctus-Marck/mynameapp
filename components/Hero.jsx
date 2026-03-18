@@ -24,7 +24,7 @@ export const Hero = () => {
           {/* Lado Derecho: Descripción y Botón */}
           <div className="md:col-span-4 md:mt-4 space-y-8">
             <p className="text-gray-400 text-lg leading-relaxed max-w-sm">
-              Diseño sistemas digitales de alta complejidad para potenciar tu negocio. Transformo ideas en experiencias de usuario precisas; en mi repositorio encontrarás soluciones para diversas áreas profesionales que requieren un ecosistema web de alto nivel.
+              Construyo soluciones digitales donde la funcionalidad y el diseño convergen. Mi enfoque se centra en desarrollar ecosistemas web escalables que optimizan el flujo de trabajo, eliminando fricciones técnicas para que puedas enfocarte en lo que importa: tu negocio.
             </p>
 
             <button className="group relative inline-flex items-center justify-center px-10 py-4 font-bold text-black transition-all duration-200 bg-gradient-to-r from-blue-400 to-blue-600 rounded-md hover:opacity-90 uppercase text-xs tracking-widest">
