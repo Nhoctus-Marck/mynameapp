@@ -3,7 +3,7 @@ import React from 'react'
 import { DolarAppProject } from '../../../components/DolarAppProject'
 import { EcommerceAppProject } from '../../../components/EcommerceAppProject'
 import { NextProjectNav } from '../../../components/NextProjectNav'
-
+import { MyConsultApp } from '../../../components/MyConsultApp'
 const ProjectsPage = () => {
   return (
     <main className="bg-black scroll-smooth">
@@ -23,9 +23,13 @@ const ProjectsPage = () => {
       </div>
       {/* Este componente hace de puente al siguiente */}
         <NextProjectNav 
-          title="Consultorio-App" 
+          title="Mi-Consultorio-App" 
           link="#third-project" 
         />
+      {/* 3. T Proyecto */}
+      <div id="second-project">
+        <MyConsultApp/>
+      </div>
     </main>
   )
 }
